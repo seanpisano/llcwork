@@ -374,6 +374,11 @@
   .navigation .logo {
       background: transparent !important;
   }
+  .navigation .logotext {
+        width: 280px;
+        padding-top: 28px;
+        font-weight: bold;
+  }
   .header-right > ul > li > a {
       color: #333;
       display: block;
@@ -4759,14 +4764,35 @@
       font-weight: 700;
       height: 50px;
       line-height: 50px;
-      margin-right: 20px;
-      padding: 0 41px;
       background: transparent;
   }
   .shop-product-area li .adtocart:hover {
       background: #FFBC13;
       color: #fff;
   }
+
+  .price_structure ul {
+    list-style-type: none;
+  }
+
+  .price_structure li .adtocart {
+      border: 2px solid #00abe9;
+      color: #00abe9;
+      display: block;
+      font-weight: 700;
+      height: 50px;
+      line-height: 50px;
+      margin-right: 20px;
+      padding: 0 41px;
+      background: transparent;
+      text-align: center;
+  }
+
+  .price_structure li .adtocart:hover {
+      background: #00abe9;
+      color: #fff;
+  }
+
   .shop-product-area .heart {
       border: 2px solid #FFBC13;
       color: #FFBC13;
